@@ -1,0 +1,94 @@
+@import url(../reindeer/legacy-styles.css);
+
+.v-app {
+	padding: 5px;
+}
+
+.v-panel-caption {
+	border-color: #93b2d0 !important;
+	background: #bfd5ea !important;
+	font-weight: bold !important;
+}
+
+.v-panel-content {
+	border-color: #93b2d0 !important;
+	background: #dfebf5 !important;
+	text-align: left !important;
+}
+
+/*********************** custom panel **********************************/
+.v-slot-custom-panel {
+	background: #a8bece;
+	margin-bottom: 10px;
+}
+
+.v-caption-custom-panel {
+	background: #7c9db6;
+    border-bottom: 1px solid #999999;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+}
+/*********************** /custom panel **********************************/
+
+/*********************** custom side bar **********************************/
+.custom-side-bar {
+	height: 100%;
+	background: #1a3c7b;
+}
+
+.custom-side-bar-header {
+	padding: 5px;
+	text-align: center;
+	col1or: #d1d3d6;
+	color: white;
+	font-size: 11px;
+}
+
+.custom-side-bar-menu {
+	margin-top: 50px;
+	height: 100%;
+	background: #1a3c7b;
+}
+.custom-side-bar-menu .v-menubar-menuitem {
+	display: block;
+}
+/*********************** /custom side bar **********************************/
+
+/*********************** custom main layout **********************************/
+.mainentrypoint {
+	padding: 0;
+}
+
+.v-splitpanel-first-container-custom-main-splitter {
+	
+}
+
+.v-splitpanel-first-container-custom-main-splitter .v-panel {
+	padding: 0;
+}
+
+.v-splitpanel-second-container-custom-main-splitter {
+	
+}
+
+.v-splitpanel-second-container-custom-main-splitter .v-panel {
+	padding: 10px 20px !important;
+}
+
+.v-splitpanel-hsplitter-custom-main-splitter {
+	visibility: hidden;
+}
+
+.v-menubar-menuitem-caption {
+	cursor: pointer;
+}
+
+.v-menubar-menuitem:hover .v-menubar-menuitem-caption,
+.v-menubar-menuitem-highlighted .v-menubar-menuitem-caption {
+	color: yellow;
+}
+
+/*********************** /custom main layout  **********************************/
+
+
